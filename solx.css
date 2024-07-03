@@ -54,7 +54,7 @@ body{
 }
 .left h4{
 
-    font-size: 15px;
+    font-size: 18px;
 }
 .left .pricing{
    
@@ -67,6 +67,9 @@ body{
     padding-left:10px;
     color:hsl(204, 43%, 93%);
     font-size: 12px;
+}
+.left .pricing h2{
+    font-size:28px;
 }
 .left button{
     color:white;
@@ -92,7 +95,7 @@ body{
     padding:1px;
 }
 .attribution{
-    margin-top:20px;
+    margin-top:10px;
     text-align: center;
 }
 @media(max-width:560px){
@@ -101,17 +104,28 @@ body{
     }
     .container{
         width:300px;
+        height:300px;
+    
+    }
+    .top{
+        font-size: 14px;
     }
     .bottom{
         display:flex;
         flex-direction: column;
     }
     .left,.right,.top{
-        padding:30px 20px;
+        padding:20px 20px;
         line-height: 1.6;
     }
     .left button{
         width:100%;
+    }
+    .left .pricing{
+        padding-top:0px;
+    }
+    .bottom .right{
+        line-height:1.4;
     }
     
 }
